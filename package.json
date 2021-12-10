@@ -18,7 +18,9 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "format": "prettier --write {.storybook,public,src,tests}/**/*.{js,vue,css}",
+    "format:check": "prettier --check {.storybook,public,src,tests}/**/*.{js,vue,css}"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -42,6 +44,7 @@
     "babel-loader": "^8.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "prettier": "2.5.1",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0",
     "vue-loader": "^16.2.0"

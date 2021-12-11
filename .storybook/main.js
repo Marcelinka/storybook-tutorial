@@ -6,5 +6,7 @@ module.exports = {
     '@storybook/addon-interactions',
     // @see https://storybook.js.org/addons/@pbutlewski/storybook-html
     '@whitespace/storybook-addon-html',
+    // @see https://storybook.js.org/addons/@storybook/addon-jest
+    '@storybook/addon-jest',
   ],
 };

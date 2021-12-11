@@ -1,230 +1,753 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots PureTaskList Default 1`] = `
-<div
-  style="margin: 3em;"
->
+exports[`Storyshots PureInboxScreen Default 1`] = `
+<div>
   <div
-    class="list-items"
+    class="page lists-show"
   >
-    
-    <div
-      class="list-item TASK_INBOX"
-    >
-      <label
-        class="checkbox"
+    <nav>
+      <h1
+        class="title-page"
       >
-        <input
-          disabled=""
-          name="checked"
-          type="checkbox"
-        />
         <span
-          aria-label="archiveTask-1"
-          class="checkbox-custom"
-        />
-      </label>
+          class="title-wrapper"
+        >
+          Taskbox
+        </span>
+      </h1>
+    </nav>
+    <div
+      class="list-items"
+    >
+      
       <div
-        class="title"
+        class="list-item TASK_INBOX"
       >
-        <input
-          placeholder="Input title"
-          readonly=""
-          type="text"
-        />
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-1"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-1"
+              class="icon-star"
+            />
+          </a>
+        </div>
       </div>
       <div
-        class="actions"
+        class="list-item TASK_INBOX"
       >
-        <a>
-          <span
-            aria-label="pinTask-1"
-            class="icon-star"
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
           />
-        </a>
+          <span
+            aria-label="archiveTask-2"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-2"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-3"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-3"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-4"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-4"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-5"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-5"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-6"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-6"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots PureInboxScreen Error 1`] = `
+<div>
+  <div
+    class="page lists-show"
+  >
+    <nav>
+      <h1
+        class="title-page"
+      >
+        <span
+          class="title-wrapper"
+        >
+          Taskbox
+        </span>
+      </h1>
+    </nav>
+    <div
+      class="list-items"
+    >
+      
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-1"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-1"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-2"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-2"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-3"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-3"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-4"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-4"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-5"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-5"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-6"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-6"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots PureInboxScreen With Interactions 1`] = `
+<div>
+  <div
+    class="page lists-show"
+  >
+    <div
+      class="wrapper-message"
+    >
+      <span
+        class="icon-face-sad"
+      />
+      <div
+        class="title-message"
+      >
+        Oh no!
+      </div>
+      <div
+        class="subtitle-message"
+      >
+        Something went wrong
       </div>
     </div>
-    <div
-      class="list-item TASK_INBOX"
-    >
-      <label
-        class="checkbox"
+  </div>
+</div>
+`;
+
+exports[`Storyshots PureTaskList Default 1`] = `
+<div>
+  <div
+    class="page lists-show"
+  >
+    <nav>
+      <h1
+        class="title-page"
       >
-        <input
-          disabled=""
-          name="checked"
-          type="checkbox"
-        />
         <span
-          aria-label="archiveTask-2"
-          class="checkbox-custom"
-        />
-      </label>
-      <div
-        class="title"
-      >
-        <input
-          placeholder="Input title"
-          readonly=""
-          type="text"
-        />
-      </div>
-      <div
-        class="actions"
-      >
-        <a>
-          <span
-            aria-label="pinTask-2"
-            class="icon-star"
-          />
-        </a>
-      </div>
-    </div>
+          class="title-wrapper"
+        >
+          Taskbox
+        </span>
+      </h1>
+    </nav>
     <div
-      class="list-item TASK_INBOX"
+      class="list-items"
     >
-      <label
-        class="checkbox"
-      >
-        <input
-          disabled=""
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          aria-label="archiveTask-3"
-          class="checkbox-custom"
-        />
-      </label>
+      
       <div
-        class="title"
+        class="list-item TASK_INBOX"
       >
-        <input
-          placeholder="Input title"
-          readonly=""
-          type="text"
-        />
-      </div>
-      <div
-        class="actions"
-      >
-        <a>
-          <span
-            aria-label="pinTask-3"
-            class="icon-star"
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
           />
-        </a>
-      </div>
-    </div>
-    <div
-      class="list-item TASK_INBOX"
-    >
-      <label
-        class="checkbox"
-      >
-        <input
-          disabled=""
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          aria-label="archiveTask-4"
-          class="checkbox-custom"
-        />
-      </label>
-      <div
-        class="title"
-      >
-        <input
-          placeholder="Input title"
-          readonly=""
-          type="text"
-        />
-      </div>
-      <div
-        class="actions"
-      >
-        <a>
           <span
-            aria-label="pinTask-4"
-            class="icon-star"
+            aria-label="archiveTask-1"
+            class="checkbox-custom"
           />
-        </a>
-      </div>
-    </div>
-    <div
-      class="list-item TASK_INBOX"
-    >
-      <label
-        class="checkbox"
-      >
-        <input
-          disabled=""
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          aria-label="archiveTask-5"
-          class="checkbox-custom"
-        />
-      </label>
-      <div
-        class="title"
-      >
-        <input
-          placeholder="Input title"
-          readonly=""
-          type="text"
-        />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-1"
+              class="icon-star"
+            />
+          </a>
+        </div>
       </div>
       <div
-        class="actions"
+        class="list-item TASK_INBOX"
       >
-        <a>
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
           <span
-            aria-label="pinTask-5"
-            class="icon-star"
+            aria-label="archiveTask-2"
+            class="checkbox-custom"
           />
-        </a>
-      </div>
-    </div>
-    <div
-      class="list-item TASK_INBOX"
-    >
-      <label
-        class="checkbox"
-      >
-        <input
-          disabled=""
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          aria-label="archiveTask-6"
-          class="checkbox-custom"
-        />
-      </label>
-      <div
-        class="title"
-      >
-        <input
-          placeholder="Input title"
-          readonly=""
-          type="text"
-        />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-2"
+              class="icon-star"
+            />
+          </a>
+        </div>
       </div>
       <div
-        class="actions"
+        class="list-item TASK_INBOX"
       >
-        <a>
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
           <span
-            aria-label="pinTask-6"
-            class="icon-star"
+            aria-label="archiveTask-3"
+            class="checkbox-custom"
           />
-        </a>
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-3"
+              class="icon-star"
+            />
+          </a>
+        </div>
       </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-4"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-4"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-5"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-5"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            aria-label="archiveTask-6"
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              aria-label="pinTask-6"
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      
     </div>
-    
   </div>
 </div>
 `;

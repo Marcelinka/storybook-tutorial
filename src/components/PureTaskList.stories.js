@@ -1,8 +1,10 @@
 import PureTaskList from './PureTaskList.vue';
+import Task from './Task.vue';
 import * as TaskStories from './Task.stories';
 
 export default {
   component: PureTaskList,
+  subcomponents: { Task },
   title: 'PureTaskList',
   decorators: [
     () => ({ template: '<div style="margin: 3em;"><story/></div>' }),

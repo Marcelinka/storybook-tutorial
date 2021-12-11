@@ -20,7 +20,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "format": "prettier --write {.storybook,public,src,tests}/**/*.{js,vue,css}",
-    "format:check": "prettier --check {.storybook,public,src,tests}/**/*.{js,vue,css}"
+    "format:check": "prettier --check {.storybook,public,src,tests}/**/*.{js,vue,css}",
+    "chromatic": "npx chromatic --project-token=a59dc6480507"
   },
   "dependencies": {
     "core-js": "^3.6.5",

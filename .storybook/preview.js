@@ -3,6 +3,8 @@ import '../src/index.css';
 // @see https://storybook.js.org/addons/@storybook/addon-console
 import '@storybook/addon-console';
 
+import prettierConfig from '../.prettierrc.js';
+
 export const parameters = {
   //👇 Configures Storybook to log the actions( onArchiveTask and onPinTask ) in the UI.
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -11,5 +13,8 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
+  },
+  html: {
+    prettier: prettierConfig,
   },
 };
